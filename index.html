@@ -2,6 +2,8 @@
 <html>
 
 <head lang="en">
+  <title>IPL</title>
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/reset_rtl.css">
   <!-- Latest compiled and minified CSS -->
@@ -21,31 +23,29 @@
 
   <!--stylesheet for icons from font-awesome-->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <link rel="icon" type="image/gif" href="img/logo.jpeg" />
 </head>
 
 <body>
   <section class="container">
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark  fixed-top ">
 
-      <!-- Toggler/collapsibe Button -->
+      <!-- Brand -->
+      <a class="navbar-brand" href="#">
+        <img src="img/logo.jpeg" alt="logo" class="logo">
+      </a>
+
+      <!-- collapsibe Button -->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
         <span class="navbar-toggler-icon"></span>
       </button>
-
-
-      <!-- Brand -->
-      <a class="navbar-brand" href="#">
-        <img src="img/logo.jpeg" alt="logo" style="width:40px;">
-      </a>
-
-
-
 
       <!-- Navbar links -->
       <section class="collapse navbar-collapse" id="collapsibleNavbar">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#">schedule</a>
+            <a class="nav-link " href="#">schedule</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">stats</a>
@@ -58,8 +58,8 @@
     </nav>
   </section>
   <section class="container">
-    <section style="margin-top: 6vw">
-      <section id="myCarousel" class="carousel slide" data-ride="carousel">
+    <section >
+      <section id="myCarousel" class="carousel slide mt-5" data-ride="carousel">
 
         <!-- Indicators -->
         <ul class="carousel-indicators">
@@ -69,19 +69,19 @@
           <li data-target="#myCarousel" data-slide-to="3"></li>
         </ul>
 
-        <!-- The slideshow -->
+        <!-- slides -->
         <section class="carousel-inner mb-5">
           <section class="carousel-item active">
-            <img src="img/ipl.jpg" alt="teams" width="100%" height="500">
+            <img src="img/ipl.jpg" alt="teams" width="100%" height="500" class="mt-5">
           </section>
           <section class="carousel-item">
-            <img src="img/teams.jpg" alt="matchinfo" width="100%" height="500">
+            <img src="img/teams.jpg" alt="matchinfo" width="100%" height="500" class="mt-5">
           </section>
           <section class="carousel-item">
-            <img src="img/captains.jpg" alt="captains" width="100%" height="500">
+            <img src="img/captains.jpg" alt="captains" width="100%" height="500" class="mt-5">
           </section>
           <section class="carousel-item">
-            <img src="img/matchinfo.png" alt="matchinfo" width="100%" height="500">
+            <img src="img/matchinfo.png" alt="matchinfo" width="100%" height="500" class="mt-5">
           </section>
         </section>
 
@@ -103,7 +103,7 @@
           <img src="img/fantasy.png" height="100%" width="100%">
           <section class="card-img-overlay">
             <h1 class="fantasy">IPL Fantasy</h1>
-            <!-- Button to Open the Modal -->
+            <!-- Button to Open  Modal -->
             <section class="card-footer border-0 text-center">
               <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#myModal">
                 login
@@ -165,13 +165,13 @@
     <section class="modal-dialog modal-dialog-centered">
       <section class="modal-content">
 
-        <!-- Modal Header -->
+        <!--Header -->
         <section class="modal-header">
           <h4 class="modal-title">fantasy</h4>
           <button type="button" class="close" data-dismiss="modal">&times;</button>
         </section>
 
-        <!-- Modal body -->
+        <!-- body -->
         <section class="modal-body">
           <section class="form">
             <section class="form-group">
@@ -185,7 +185,7 @@
           </section>
         </section>
 
-        <!-- Modal footer -->
+        <!-- footer -->
         <section class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">login</button>
         </section>
@@ -200,48 +200,48 @@
     <h1 class="text-light">teams</h1>
     <section class="container">
       <section class="row">
-        <section class="col-sm-6">
+        <section class="col-sm-6 text-center mt-2">
           <a href="#">
             <img src="img/csk.jpeg" class="border">
           </a>
         </section>
-        <section class="col-sm-6">
+        <section class="col-sm-6 text-center mt-2">
           <a href="#">
             <img src="img/delhi.png" class="border"> </a>
         </section>
       </section>
       <br>
       <section class="row">
-        <section class="col-sm-6">
+        <section class="col-sm-6 text-center mt-2">
           <a href="#">
             <img src="img/kkr.png" class="border">
           </a>
         </section>
-        <section class="col-sm-6">
+        <section class="col-sm-6 text-center mt-2">
           <a href="#">
             <img src="img/kxip.jpeg" class="border"> </a>
         </section>
       </section>
       <br>
       <section class="row">
-        <section class="col-sm-6">
+        <section class="col-sm-6 text-center mt-2">
           <a href="#">
             <img src="img/mi.png" class="border">
           </a>
         </section>
-        <section class="col-sm-6">
+        <section class="col-sm-6 text-center mt-2">
           <a href="#">
             <img src="img/rcb.jpeg" class="border"> </a>
         </section>
       </section>
       <br>
       <section class="row">
-        <section class="col-sm-6">
+        <section class="col-sm-6 text-center mt-2">
           <a href="#">
             <img src="img/rr.png" class="border">
           </a>
         </section>
-        <section class="col-sm-6">
+        <section class="col-sm-6 text-center mt-2">
           <a href="#">
             <img src="img/srh.jpeg" class="border"> </a>
         </section>
